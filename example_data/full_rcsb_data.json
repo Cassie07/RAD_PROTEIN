@@ -1,0 +1,975 @@
+{
+    "data": {
+        "entries": [
+            {
+                "rcsb_id": "5V4S",
+                "struct": {
+                    "title": "CryoEM Structure of a Prokaryotic Cyclic Nucleotide-Gated Ion Channel"
+                },
+                "struct_keywords": {
+                    "pdbx_keywords": "TRANSPORT PROTEIN",
+                    "text": "Ion channel, cyclic nucleotide, allostery, vision, olfaction, TRANSPORT PROTEIN"
+                },
+                "exptl": [
+                    {
+                        "method": "ELECTRON MICROSCOPY"
+                    }
+                ],
+                "citation": [
+                    {
+                        "title": "CryoEM structure of a prokaryotic cyclic nucleotide-gated ion channel.",
+                        "pdbx_database_id_PubMed": 28396445,
+                        "pdbx_database_id_DOI": "10.1073/pnas.1700248114",
+                        "rcsb_is_primary": "Y"
+                    }
+                ],
+                "pubmed": {
+                    "rcsb_pubmed_container_identifiers": {
+                        "pubmed_id": 28396445
+                    },
+                    "rcsb_pubmed_mesh_descriptors": [
+                        "Cyclic Nucleotide-Gated Cation Channels",
+                        "Ion Channel Gating",
+                        "Leptospira",
+                        "Microscopy, Electron",
+                        "Models, Molecular",
+                        "Protein Conformation"
+                    ],
+                    "rcsb_pubmed_abstract_text": "Cyclic nucleotide-gated (CNG) and hyperpolarization-activated cyclic nucleotide-regulated (HCN) ion channels play crucial physiological roles in phototransduction, olfaction, and cardiac pace making. These channels are characterized by the presence of a carboxyl-terminal cyclic nucleotide-binding domain (CNBD) that connects to the channel pore via a C-linker domain. Although cyclic nucleotide binding has been shown to promote CNG and HCN channel opening, the precise mechanism underlying gating remains poorly understood. Here we used cryoEM to determine the structure of the intact LliK CNG channel isolated from  <i>Leptospira licerasiae </i>-which shares sequence similarity to eukaryotic CNG and HCN channels-in the presence of a saturating concentration of cAMP. A short S4-S5 linker connects nearby voltage-sensing and pore domains to produce a non-domain-swapped transmembrane architecture, which appears to be a hallmark of this channel family. We also observe major conformational changes of the LliK C-linkers and CNBDs relative to the crystal structures of isolated C-linker/CNBD fragments and the cryoEM structures of related CNG, HCN, and KCNH channels. The conformation of our LliK structure may represent a functional state of this channel family not captured in previous studies.",
+                    "rcsb_pubmed_doi": "10.1073/pnas.1700248114",
+                    "rcsb_pubmed_central_id": "PMC5410850"
+                },
+                "polymer_entities": [
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "Leptospira licerasiae serovar Varillal str. VAR 010",
+                                "ncbi_scientific_name": "Leptospira licerasiae serovar Varillal str. VAR 010"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "Transporter"
+                                },
+                                {
+                                    "name": "cation channel family / cyclic nucleotide-binding domain multi-domain protein"
+                                }
+                            ]
+                        },
+                        "uniprots": null
+                    }
+                ],
+                "nonpolymer_entities": null
+            },
+            {
+                "rcsb_id": "2YKX",
+                "struct": {
+                    "title": "Structural Determinants of the Beta-Selectivity of a Bacterial Aminotransferase"
+                },
+                "struct_keywords": {
+                    "pdbx_keywords": "TRANSFERASE",
+                    "text": "TRANSFERASE"
+                },
+                "exptl": [
+                    {
+                        "method": "X-RAY DIFFRACTION"
+                    }
+                ],
+                "citation": [
+                    {
+                        "title": "Structural Determinants of the Beta-Selectivity of a Bacterial Aminotransferase.",
+                        "pdbx_database_id_PubMed": 22745123,
+                        "pdbx_database_id_DOI": "10.1074/JBC.M112.375238",
+                        "rcsb_is_primary": "Y"
+                    }
+                ],
+                "pubmed": {
+                    "rcsb_pubmed_container_identifiers": {
+                        "pubmed_id": 22745123
+                    },
+                    "rcsb_pubmed_mesh_descriptors": [
+                        "Binding Sites",
+                        "Crystallography, X-Ray",
+                        "Enzyme Inhibitors",
+                        "Ketoglutaric Acids",
+                        "Mesorhizobium",
+                        "Phenylalanine",
+                        "Protein Structure, Tertiary",
+                        "Substrate Specificity",
+                        "Transaminases"
+                    ],
+                    "rcsb_pubmed_abstract_text": "Chiral \u03b2-amino acids occur as constituents of various natural and synthetic compounds with potentially useful bioactivities. The pyridoxal 5'-phosphate (PLP)-dependent S-selective transaminase from Mesorhizobium sp. strain LUK (MesAT) is a fold type I aminotransferase that can be used for the preparation of enantiopure \u03b2-Phe and derivatives thereof. Using x-ray crystallography, we solved structures of MesAT in complex with (S)-\u03b2-Phe, (R)-3-amino-5-methylhexanoic acid, 2-oxoglutarate, and the inhibitor 2-aminooxyacetic acid, which allowed us to unveil the molecular basis of the amino acid specificity and enantioselectivity of this enzyme. The binding pocket of the side chain of a \u03b2-amino acid is located on the 3'-oxygen side of the PLP cofactor. The same binding pocket is utilized by MesAT to bind the \u03b1-carboxylate group of an \u03b1-amino acid. A \u03b2-amino acid thus binds in a reverse orientation in the active site of MesAT compared with an \u03b1-amino acid. Such a binding mode has not been reported before for any PLP-dependent aminotransferase and shows that the active site of MesAT has specifically evolved to accommodate both \u03b2- and \u03b1-amino acids.",
+                    "rcsb_pubmed_doi": "10.1074/jbc.M112.375238",
+                    "rcsb_pubmed_central_id": "PMC3436509"
+                },
+                "polymer_entities": [
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "MESORHIZOBIUM SP. LUK",
+                                "ncbi_scientific_name": "Mesorhizobium sp. LUK"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "BETA-TRANSAMINASE"
+                                },
+                                {
+                                    "name": "BETA-PHENYLALANINE AMINOTRANSFERASE"
+                                }
+                            ]
+                        },
+                        "uniprots": [
+                            {
+                                "rcsb_uniprot_protein": {
+                                    "function": null
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "nonpolymer_entities": [
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "1,2-ETHANEDIOL"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "1,2-ETHANEDIOL"
+                                },
+                                {
+                                    "name": "ETHYLENE GLYCOL"
+                                },
+                                {
+                                    "name": "ethane-1,2-diol"
+                                },
+                                {
+                                    "name": "ethane-1,2-diol"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "GLYCEROL"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "GLYCEROL"
+                                },
+                                {
+                                    "name": "GLYCERIN"
+                                },
+                                {
+                                    "name": "PROPANE-1,2,3-TRIOL"
+                                },
+                                {
+                                    "name": "propane-1,2,3-triol"
+                                },
+                                {
+                                    "name": "propane-1,2,3-triol"
+                                },
+                                {
+                                    "name": "Glycerol"
+                                },
+                                {
+                                    "name": "Glycerine"
+                                },
+                                {
+                                    "name": "Monoctanoin component D"
+                                },
+                                {
+                                    "name": "Propanetriol"
+                                },
+                                {
+                                    "name": "Glyzerin"
+                                },
+                                {
+                                    "name": "Glycerin,anhydrous"
+                                },
+                                {
+                                    "name": "Trihydroxypropane"
+                                },
+                                {
+                                    "name": "Glycerin"
+                                },
+                                {
+                                    "name": "Glycerinum"
+                                },
+                                {
+                                    "name": "glyc\u00e9rine"
+                                },
+                                {
+                                    "name": "1,2,3-trihydroxypropane"
+                                },
+                                {
+                                    "name": "glyc\u00e9rol"
+                                },
+                                {
+                                    "name": "1,2,3-propanetriol"
+                                },
+                                {
+                                    "name": "Glycerin, anhydrous"
+                                },
+                                {
+                                    "name": "\u00d6ls\u00fc\u00df"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "2-OXOGLUTARIC ACID"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "2-OXOGLUTARIC ACID"
+                                },
+                                {
+                                    "name": "2-oxopentanedioic acid"
+                                },
+                                {
+                                    "name": "2-oxidanylidenepentanedioic acid"
+                                },
+                                {
+                                    "name": "Alpha-ketoglutarate"
+                                },
+                                {
+                                    "name": "Ketoglutaric acid"
+                                },
+                                {
+                                    "name": "Oxoglurate"
+                                },
+                                {
+                                    "name": "Oxogluric acid"
+                                },
+                                {
+                                    "name": "\u03b1-Ketoglutarate"
+                                },
+                                {
+                                    "name": "2-oxoglutaric acid"
+                                },
+                                {
+                                    "name": "alpha-Ketoglutaric acid"
+                                },
+                                {
+                                    "name": "2-Ketoglutaric acid"
+                                },
+                                {
+                                    "name": "2-oxopentanedioic acid"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "PYRIDOXAL-5'-PHOSPHATE"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "PYRIDOXAL-5'-PHOSPHATE"
+                                },
+                                {
+                                    "name": "VITAMIN B6 Phosphate"
+                                },
+                                {
+                                    "name": "(4-formyl-5-hydroxy-6-methylpyridin-3-yl)methyl dihydrogen phosphate"
+                                },
+                                {
+                                    "name": "(5-hydroxy-4-methanoyl-6-methyl-pyridin-3-yl)methyl dihydrogen phosphate"
+                                },
+                                {
+                                    "name": "Pyridoxal phosphate anhydrous"
+                                },
+                                {
+                                    "name": "Pyridoxal P"
+                                },
+                                {
+                                    "name": "Pyridoxal 5-phosphate"
+                                },
+                                {
+                                    "name": "Pyridoxal 5'-phosphate"
+                                },
+                                {
+                                    "name": "PLP"
+                                },
+                                {
+                                    "name": "Codecarboxylase"
+                                },
+                                {
+                                    "name": "Pyridoxal 5-monophosphoric acid ester"
+                                },
+                                {
+                                    "name": "Pyridoxal-5P"
+                                },
+                                {
+                                    "name": "3-hydroxy-5-(hydroxymethyl)-2-methylisonicotinaldehyde 5-phosphate"
+                                },
+                                {
+                                    "name": "Pyridoxal-P"
+                                },
+                                {
+                                    "name": "3-hydroxy-2-methyl-5-((phosphonooxy)methyl)-4-pyridinecarboxaldehyde"
+                                },
+                                {
+                                    "name": "Pyridoxal phosphate hydrate"
+                                },
+                                {
+                                    "name": "Pyridoxal phosphate"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "rcsb_id": "1QLF",
+                "struct": {
+                    "title": "MHC CLASS I H-2DB COMPLEXED WITH GLYCOPEPTIDE K3G"
+                },
+                "struct_keywords": {
+                    "pdbx_keywords": "IMMUNE SYSTEM/PEPTIDE",
+                    "text": "IMMUNE SYSTEM/PEPTIDE, MURINE CLASS I MHC-PEPTIDE COMPLEX, MHC, GLYCOPEPTIDE, ANTIGEN, HISTOCOMPATIBILITY, IMMUNOLOGY, IMMUNE SYSTEM-PEPTIDE complex"
+                },
+                "exptl": [
+                    {
+                        "method": "X-RAY DIFFRACTION"
+                    }
+                ],
+                "citation": [
+                    {
+                        "title": "Crystal Structures of Two H-2Db/Glycopeptide Complexes Suggest a Molecular Basis for Ctl Cross-Reactivity",
+                        "pdbx_database_id_PubMed": 10023771,
+                        "pdbx_database_id_DOI": "10.1016/S1074-7613(00)80007-2",
+                        "rcsb_is_primary": "Y"
+                    }
+                ],
+                "pubmed": {
+                    "rcsb_pubmed_container_identifiers": {
+                        "pubmed_id": 10023771
+                    },
+                    "rcsb_pubmed_mesh_descriptors": [
+                        "Acetylglucosamine",
+                        "Animals",
+                        "Clone Cells",
+                        "Crystallography, X-Ray",
+                        "Cytotoxicity, Immunologic",
+                        "Epitopes, T-Lymphocyte",
+                        "Glycopeptides",
+                        "H-2 Antigens",
+                        "Histocompatibility Antigen H-2D",
+                        "Humans",
+                        "Macromolecular Substances",
+                        "Mice",
+                        "Models, Molecular",
+                        "Nucleocapsid Proteins",
+                        "Nucleoproteins",
+                        "Oligopeptides",
+                        "Polysaccharides",
+                        "Receptors, Antigen, T-Cell",
+                        "T-Lymphocytes, Cytotoxic",
+                        "Viral Core Proteins"
+                    ],
+                    "rcsb_pubmed_abstract_text": "Two synthetic O-GlcNAc-bearing peptides that elicit H-2Db-restricted glycopeptide-specific cytotoxic T cells (CTL) have been shown to display nonreciprocal patterns of cross-reactivity. Here, we present the crystal structures of the H-2Db glycopeptide complexes to 2.85 A resolution or better. In both cases, the glycan is solvent exposed and available for direct recognition by the T cell receptor (TCR). We have modeled the complex formed between the MHC-glycopeptide complexes and their respective TCRs, showing that a single saccharide residue can be accommodated in the standard TCR-MHC geometry. The models also reveal a possible molecular basis for the observed cross-reactivity patterns of the CTL clones, which appear to be influenced by the length of the CDR3 loop and the nature of the immunizing ligand.",
+                    "rcsb_pubmed_doi": "10.1016/s1074-7613(00)80007-2",
+                    "rcsb_pubmed_central_id": null
+                },
+                "polymer_entities": [
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "SENDAI VIRUS",
+                                "ncbi_scientific_name": "Respirovirus muris"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "SYNTHETIC GLYCOPEPTIDE"
+                                }
+                            ]
+                        },
+                        "uniprots": [
+                            {
+                                "rcsb_uniprot_protein": {
+                                    "function": {
+                                        "details": "Forms the helical nucleocapsid (NC) in a ratio of 1 N per 6 ribonucleotides, protecting the genome from nucleases (By similarity). The NC has a helical structure with either 13.07 N per turn, approximately 20 nm in diameter, with a hollow central cavity approximately 5 nm in diameter (PubMed:2539515). The encapsidated genomic RNA serves as template for transcription and replication; encapsidation by N is coupled to RNA synthesis. Forms the encapsidation complex with the phosphoprotein protein P. Before encapsidation, the newly synthesized free N protein, so-called N0, is chaperoned by P (By similarity)."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "HOMO SAPIENS",
+                                "ncbi_scientific_name": "Homo sapiens"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "HUMAN BETA-2-MICROGLOBULIN"
+                                }
+                            ]
+                        },
+                        "uniprots": [
+                            {
+                                "rcsb_uniprot_protein": {
+                                    "function": {
+                                        "details": "Component of the class I major histocompatibility complex (MHC). Involved in the presentation of peptide antigens to the immune system. Exogenously applied M.tuberculosis EsxA or EsxA-EsxB (or EsxA expressed in host) binds B2M and decreases its export to the cell surface (total protein levels do not change), probably leading to defects in class I antigen presentation (PubMed:25356553)."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "MUS MUSCULUS",
+                                "ncbi_scientific_name": "Mus musculus"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "MHC CLASS I H-2DB HEAVY CHAIN"
+                                },
+                                {
+                                    "name": "H-2 CLASS I HISTOCOMPATIBILITY ANTIGEN"
+                                },
+                                {
+                                    "name": "D-B ALPHA CHAIN"
+                                },
+                                {
+                                    "name": "(H-2D(B))"
+                                }
+                            ]
+                        },
+                        "uniprots": [
+                            {
+                                "rcsb_uniprot_protein": {
+                                    "function": {
+                                        "details": "Involved in the presentation of foreign antigens to the immune system."
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "nonpolymer_entities": [
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "2-acetamido-2-deoxy-beta-D-glucopyranose"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "2-acetamido-2-deoxy-beta-D-glucopyranose"
+                                },
+                                {
+                                    "name": "N-acetyl-beta-D-glucosamine"
+                                },
+                                {
+                                    "name": "2-acetamido-2-deoxy-beta-D-glucose"
+                                },
+                                {
+                                    "name": "2-acetamido-2-deoxy-D-glucose"
+                                },
+                                {
+                                    "name": "2-acetamido-2-deoxy-glucose"
+                                },
+                                {
+                                    "name": "N-ACETYL-D-GLUCOSAMINE"
+                                },
+                                {
+                                    "name": "2-(acetylamino)-2-deoxy-beta-D-glucopyranose"
+                                },
+                                {
+                                    "name": "N-[(2R,3R,4R,5S,6R)-6-(hydroxymethyl)-2,4,5-tris(oxidanyl)oxan-3-yl]ethanamide"
+                                },
+                                {
+                                    "name": "DGlcpNAcb"
+                                },
+                                {
+                                    "name": "N-acetyl-b-D-glucopyranosamine"
+                                },
+                                {
+                                    "name": "b-D-GlcpNAc"
+                                },
+                                {
+                                    "name": "GlcNAc"
+                                },
+                                {
+                                    "name": "aldehydo-N-acetyl-D-glucosamine"
+                                },
+                                {
+                                    "name": "D-GlcNAc"
+                                },
+                                {
+                                    "name": "N-Acetylglucosamine"
+                                },
+                                {
+                                    "name": "N-Acetyl-D-glucosamine"
+                                },
+                                {
+                                    "name": "N-Acetylchitosamine"
+                                },
+                                {
+                                    "name": "2-Acetamido-2-deoxy-D-glucose"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "SULFATE ION"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "SULFATE ION"
+                                },
+                                {
+                                    "name": "sulfate"
+                                },
+                                {
+                                    "name": "sulfate"
+                                },
+                                {
+                                    "name": "Sulfate dianion"
+                                },
+                                {
+                                    "name": "Sulfuric acid ion(2-)"
+                                },
+                                {
+                                    "name": "sulphate"
+                                },
+                                {
+                                    "name": "Sulfate(2-)"
+                                },
+                                {
+                                    "name": "Sulfate"
+                                },
+                                {
+                                    "name": "Sulfate ion"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "GLYCEROL"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "GLYCEROL"
+                                },
+                                {
+                                    "name": "GLYCERIN"
+                                },
+                                {
+                                    "name": "PROPANE-1,2,3-TRIOL"
+                                },
+                                {
+                                    "name": "propane-1,2,3-triol"
+                                },
+                                {
+                                    "name": "propane-1,2,3-triol"
+                                },
+                                {
+                                    "name": "Glycerol"
+                                },
+                                {
+                                    "name": "Glycerine"
+                                },
+                                {
+                                    "name": "Monoctanoin component D"
+                                },
+                                {
+                                    "name": "Propanetriol"
+                                },
+                                {
+                                    "name": "Glyzerin"
+                                },
+                                {
+                                    "name": "Glycerin,anhydrous"
+                                },
+                                {
+                                    "name": "Trihydroxypropane"
+                                },
+                                {
+                                    "name": "Glycerin"
+                                },
+                                {
+                                    "name": "Glycerinum"
+                                },
+                                {
+                                    "name": "glyc\u00e9rine"
+                                },
+                                {
+                                    "name": "1,2,3-trihydroxypropane"
+                                },
+                                {
+                                    "name": "glyc\u00e9rol"
+                                },
+                                {
+                                    "name": "1,2,3-propanetriol"
+                                },
+                                {
+                                    "name": "Glycerin, anhydrous"
+                                },
+                                {
+                                    "name": "\u00d6ls\u00fc\u00df"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "rcsb_id": "4DWX",
+                "struct": {
+                    "title": "Crystal Structure of a Family GH-19 Chitinase from rye seeds"
+                },
+                "struct_keywords": {
+                    "pdbx_keywords": "HYDROLASE",
+                    "text": "Chitinase, Hydrolase, Carbohydrate"
+                },
+                "exptl": [
+                    {
+                        "method": "X-RAY DIFFRACTION"
+                    }
+                ],
+                "citation": [
+                    {
+                        "title": "Crystal structure and chitin oligosaccharide-binding mode of a 'loopful' family GH19 chitinase from rye, Secale cereale, seeds",
+                        "pdbx_database_id_PubMed": 22831795,
+                        "pdbx_database_id_DOI": "10.1111/j.1742-4658.2012.08723.x",
+                        "rcsb_is_primary": "Y"
+                    }
+                ],
+                "pubmed": {
+                    "rcsb_pubmed_container_identifiers": {
+                        "pubmed_id": 22831795
+                    },
+                    "rcsb_pubmed_mesh_descriptors": [
+                        "Amino Acid Sequence",
+                        "Binding Sites",
+                        "Catalysis",
+                        "Catalytic Domain",
+                        "Chitin",
+                        "Chitinases",
+                        "Chromatography, High Pressure Liquid",
+                        "Crystallography, X-Ray",
+                        "Hydrolysis",
+                        "Models, Molecular",
+                        "Molecular Sequence Data",
+                        "Mutagenesis, Site-Directed",
+                        "Mutation",
+                        "Nuclear Magnetic Resonance, Biomolecular",
+                        "Protein Binding",
+                        "Protein Structure, Tertiary",
+                        "Secale",
+                        "Seeds",
+                        "Sequence Homology, Amino Acid",
+                        "Substrate Specificity"
+                    ],
+                    "rcsb_pubmed_abstract_text": "The substrate-binding mode of a 26-kDa GH19 chitinase from rye, Secale cereale, seeds (RSC-c) was investigated by crystallography, site-directed mutagenesis and NMR spectroscopy. The crystal structure of RSC-c in a complex with an N-acetylglucosamine tetramer, (GlcNAc)(4) , was successfully solved, and revealed the binding mode of the tetramer to be an aglycon-binding site, subsites +1, +2, +3, and +4. These are the first crystallographic data showing the oligosaccharide-binding mode of a family GH19 chitinase. From HPLC analysis of the enzymatic reaction products, mutation of Trp72 to alanine was found to affect the product distribution obtained from the substrate, p-nitrophenyl penta-N-acetyl-\u03b2-chitopentaoside. Mutational experiments confirmed the crystallographic finding that the Trp72 side chain interacts with the +4 moiety of the bound substrate. To further confirm the crystallographic data, binding experiments were also conducted in solution using NMR spectroscopy. Several signals in the (1) H-(15) N HSQC spectrum of the stable isotope-labeled RSC-c were affected upon addition of (GlcNAc)(4) . Signal assignments revealed that most signals responsive to the addition of (GlcNAc)(4) are derived from amino acids located at the surface of the aglycon-binding site. The binding mode deduced from NMR binding experiments in solution was consistent with that from the crystal structure.",
+                    "rcsb_pubmed_doi": "10.1111/j.1742-4658.2012.08723.x",
+                    "rcsb_pubmed_central_id": null
+                },
+                "polymer_entities": [
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "Secale cereale",
+                                "ncbi_scientific_name": "Secale cereale"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "Basic endochitinase C"
+                                },
+                                {
+                                    "name": "Family GH19 chitinase"
+                                },
+                                {
+                                    "name": "Rye seed chitinase-c"
+                                },
+                                {
+                                    "name": "RSC-c"
+                                }
+                            ]
+                        },
+                        "uniprots": [
+                            {
+                                "rcsb_uniprot_protein": {
+                                    "function": {
+                                        "details": "Defense against chitin-containing fungal pathogens. Binds the hyphal tips of fungi and degrades nascent chitin."
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "nonpolymer_entities": [
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "2-(N-MORPHOLINO)-ETHANESULFONIC ACID"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "2-(N-MORPHOLINO)-ETHANESULFONIC ACID"
+                                },
+                                {
+                                    "name": "2-morpholin-4-ium-4-ylethanesulfonate"
+                                },
+                                {
+                                    "name": "2-morpholin-4-ium-4-ylethanesulfonate"
+                                },
+                                {
+                                    "name": "MES"
+                                },
+                                {
+                                    "name": "2-(4-morpholinyl)ethanesulfonic acid"
+                                },
+                                {
+                                    "name": "2-(morpholin-4-yl)ethanesulfonic acid"
+                                },
+                                {
+                                    "name": "4-morpholinethanesulfonic acid"
+                                },
+                                {
+                                    "name": "4-morpholineethanesulfonic acid"
+                                },
+                                {
+                                    "name": "2-(N-morpholino)ethanesulfonic acid"
+                                },
+                                {
+                                    "name": "2-morpholinoethanesulphonic acid"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "SULFATE ION"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "SULFATE ION"
+                                },
+                                {
+                                    "name": "sulfate"
+                                },
+                                {
+                                    "name": "sulfate"
+                                },
+                                {
+                                    "name": "Sulfate dianion"
+                                },
+                                {
+                                    "name": "Sulfuric acid ion(2-)"
+                                },
+                                {
+                                    "name": "sulphate"
+                                },
+                                {
+                                    "name": "Sulfate(2-)"
+                                },
+                                {
+                                    "name": "Sulfate"
+                                },
+                                {
+                                    "name": "Sulfate ion"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "ZINC ION"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "ZINC ION"
+                                },
+                                {
+                                    "name": "zinc"
+                                },
+                                {
+                                    "name": "zinc(+2) cation"
+                                },
+                                {
+                                    "name": "Zinc cation"
+                                },
+                                {
+                                    "name": "Zinc(2+)"
+                                },
+                                {
+                                    "name": "Zinc ion(2+)"
+                                },
+                                {
+                                    "name": "Zinc(II)"
+                                },
+                                {
+                                    "name": "Zinc ion"
+                                },
+                                {
+                                    "name": "Zinc, ion (Zn2+)"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "rcsb_id": "3L1N",
+                "struct": {
+                    "title": "Crystal structure of Mp1p ligand binding domain 2 complexd with palmitic acid"
+                },
+                "struct_keywords": {
+                    "pdbx_keywords": "LIPID BINDING PROTEIN",
+                    "text": "helix-turn-helix, protein-ligand complex, LIPID BINDING PROTEIN"
+                },
+                "exptl": [
+                    {
+                        "method": "X-RAY DIFFRACTION"
+                    }
+                ],
+                "citation": [
+                    {
+                        "title": "Crystal structure of the Mp1p ligand binding domain 2 reveals its function as a fatty acid-binding protein.",
+                        "pdbx_database_id_PubMed": 20053994,
+                        "pdbx_database_id_DOI": "10.1074/jbc.M109.057760",
+                        "rcsb_is_primary": "Y"
+                    }
+                ],
+                "pubmed": {
+                    "rcsb_pubmed_container_identifiers": {
+                        "pubmed_id": 20053994
+                    },
+                    "rcsb_pubmed_mesh_descriptors": [
+                        "Amino Acid Sequence",
+                        "Calorimetry",
+                        "Crystallography, X-Ray",
+                        "Dimerization",
+                        "Fatty Acid-Binding Proteins",
+                        "Hydrogen Bonding",
+                        "Kinetics",
+                        "Ligands",
+                        "Membrane Glycoproteins",
+                        "Molecular Sequence Data",
+                        "Mutation",
+                        "Penicillium",
+                        "Protein Binding",
+                        "Protein Conformation",
+                        "Protein Structure, Secondary",
+                        "Protein Structure, Tertiary",
+                        "Sequence Homology, Amino Acid"
+                    ],
+                    "rcsb_pubmed_abstract_text": "Penicillium marneffei is a dimorphic, pathogenic fungus in Southeast Asia that mostly afflicts immunocompromised individuals. As the only dimorphic member of the genus, it goes through a phase transition from a mold to yeast form, which is believed to be a requisite for its pathogenicity. Mp1p, a cell wall antigenic mannoprotein existing widely in yeast, hyphae, and conidia of the fungus, plays a vital role in host immune response during infection. To understand the function of Mp1p, we have determined the x-ray crystal structure of its ligand binding domain 2 (LBD2) to 1.3 A. The structure reveals a dimer between the two molecules. The dimer interface forms a ligand binding cavity, in which electron density was observed for a palmitic acid molecule interacting with LBD2 indirectly through hydrogen bonding networks via two structural water molecules. Isothermal titration calorimetry experiments measured the ligand binding affinity (K(d)) of Mp1p at the micromolar level. Mutations of ligand-binding residues, namely S313A and S332A, resulted in a 9-fold suppression of ligand binding affinity. Analytical ultracentrifugation assays demonstrated that both LBD2 and Mp1p are mostly monomeric in vitro, no matter with or without ligand, and our dimeric crystal structure of LBD2 might be the result of crystal packing. Based on the conformation of the ligand-binding pocket in the dimer structure, a model for the closed, monomeric form of LBD2 is proposed. Further structural analysis indicated the biological importance of fatty acid binding of Mp1p for the survival and pathogenicity of the conditional pathogen.",
+                    "rcsb_pubmed_doi": "10.1074/jbc.M109.057760",
+                    "rcsb_pubmed_central_id": "PMC2838340"
+                },
+                "polymer_entities": [
+                    {
+                        "rcsb_entity_source_organism": [
+                            {
+                                "scientific_name": "Penicillium marneffei",
+                                "ncbi_scientific_name": "Talaromyces marneffei"
+                            }
+                        ],
+                        "rcsb_polymer_entity": {
+                            "rcsb_macromolecular_names_combined": [
+                                {
+                                    "name": "Cell wall antigen"
+                                },
+                                {
+                                    "name": "Mp1p"
+                                }
+                            ]
+                        },
+                        "uniprots": [
+                            {
+                                "rcsb_uniprot_protein": {
+                                    "function": {
+                                        "details": "Constitutive protein of the cell wall. Binds fatty acids and may thus serve as a fatty acid transporter between P.marneffei and host cells during infection (PubMed:20053994). Abundant antigen target of host humoral immune response (PubMed:9488383)."
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "nonpolymer_entities": [
+                    {
+                        "nonpolymer_comp": {
+                            "chem_comp": {
+                                "name": "PALMITIC ACID"
+                            },
+                            "rcsb_chem_comp_synonyms": [
+                                {
+                                    "name": "PALMITIC ACID"
+                                },
+                                {
+                                    "name": "hexadecanoic acid"
+                                },
+                                {
+                                    "name": "hexadecanoic acid"
+                                },
+                                {
+                                    "name": "1-Pentadecanecarboxylic acid"
+                                },
+                                {
+                                    "name": "Hexadecoic acid"
+                                },
+                                {
+                                    "name": "Palmitinic acid"
+                                },
+                                {
+                                    "name": "Palmitate"
+                                },
+                                {
+                                    "name": "Hexadecanoic acid"
+                                },
+                                {
+                                    "name": "Hexadecanoate"
+                                },
+                                {
+                                    "name": "Hexaectylic acid"
+                                },
+                                {
+                                    "name": "1-hexyldecanoic acid"
+                                },
+                                {
+                                    "name": "Hexadecylic acid"
+                                },
+                                {
+                                    "name": "Palmitic Acid"
+                                },
+                                {
+                                    "name": "16-chloropalmitic acid"
+                                },
+                                {
+                                    "name": "Palmitins\u00e4ure"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

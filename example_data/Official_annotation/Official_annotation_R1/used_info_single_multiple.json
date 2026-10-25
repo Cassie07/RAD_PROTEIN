@@ -1,0 +1,26 @@
+{
+    "used_category_name_single": [
+        "Burkholderia gladioli",
+        "[Eubacterium] siraeum DSM 15702"
+    ],
+    "used_pid_single": [
+        32602838,
+        33197475
+    ],
+    "used_pdb_id_single": [
+        "1CI8",
+        "9EC8"
+    ],
+    "used_category_name_multiple": [
+        "Leishmania major",
+        "Human respiratory syncytial virus A2"
+    ],
+    "used_pid_multiple": [
+        8254677,
+        38177296
+    ],
+    "used_pdb_id_multiple": [
+        "5OEY",
+        "2BFO"
+    ]
+}

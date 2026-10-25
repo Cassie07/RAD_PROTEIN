@@ -1,0 +1,19 @@
+# Full-scale data (download / generate locally; see README)
+/data/
+/full_rcsb_data*.json
+/demo_pubmed.json
+# unzipped copy of example_data/demo_pubmed.json.gz
+/example_data/demo_pubmed.json
+/demo_pubmed.json.gz
+
+# Generated artifacts
+outputs/
+chroma_db_eval/
+chroma_db/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+rad_env/

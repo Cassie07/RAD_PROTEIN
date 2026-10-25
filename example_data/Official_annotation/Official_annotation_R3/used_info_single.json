@@ -1,0 +1,14 @@
+{
+    "used_category_name_single": [
+        "Pseudomonas alvandae",
+        "Colletotrichum tofieldiae"
+    ],
+    "used_pid_single": [
+        39585981,
+        25945574
+    ],
+    "used_pdb_id_single": [
+        "9IY0 (https://www.rcsb.org/structure/9IY0/)",
+        "9IY2 (https://www.rcsb.org/structure/9IY2/)"
+    ]
+}
