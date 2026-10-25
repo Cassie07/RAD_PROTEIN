@@ -1,6 +1,12 @@
-# RAD-PROTEIN
+# 🧬 RAD-PROTEIN
 
 **RAD-PROTEIN: Multi-source Knowledge-enriched Retrieval-augmented Protein Structure Searching**
+
+[![Paper](https://img.shields.io/badge/Paper-EMNLP%202026-b31b1b.svg)](https://aclanthology.org/2026.emnlp-main.1940.pdf)
+[![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-2026.emnlp--main.1940-blue.svg)](https://aclanthology.org/2026.emnlp-main.1940/)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB.svg?logo=python&logoColor=white)
+
+📄 **Paper:** [https://aclanthology.org/2026.emnlp-main.1940.pdf](https://aclanthology.org/2026.emnlp-main.1940.pdf)
 
 This repository contains code to:
 
@@ -10,7 +16,7 @@ This repository contains code to:
 
 A small example dataset (`example_data/`, 5 samples per file) ships with the repo, so all three notebooks run end to end out of the box.
 
-## Pipeline
+## ⚙️ Pipeline
 
 ```
 RCSB PDB metadata  +  PubMed abstracts
@@ -29,7 +35,7 @@ RCSB PDB metadata  +  PubMed abstracts
     Recall@k, Precision@k, MRR, MAP, NDCG@k with 95% bootstrap CIs
 ```
 
-## Repository structure
+## 📁 Repository structure
 
 ```
 RAD_PROTEIN/
@@ -55,13 +61,13 @@ RAD_PROTEIN/
 └── outputs/                          # created by the notebooks (git-ignored)
 ```
 
-### About the example data
+### 🧪 About the example data
 
 - The example questions are Qwen-generated questions that are **not** part of the curated evaluation benchmark. The annotation columns (`Round`, `Name`, `Rate_quality`, `Relevance`, `Complexity`, `Confidence`, `Other_comments`) are kept so the file format matches, but they are left empty.
 - `demo_pubmed.json.gz` and `full_rcsb_data.json` contain only the 5 abstracts and RCSB entries behind those questions. Retrieval metrics on the example data are therefore trivially high: the example is a smoke test, not a benchmark.
 - `used_info_*.json` lists a few previously used categories, PMIDs and PDB IDs, using the same keys as the real files.
 
-## Setup
+## 🔧 Setup
 
 ### 1. Environment
 
@@ -91,11 +97,11 @@ To run on the full data:
 3. Add the PubMed corpus as an unzipped `demo_pubmed.json`, your question CSVs and the abbreviation dictionary.
 4. In each notebook, set `DATA_DIR` in the path cell to your folder, and update the example file names (`single_expand_example*.csv`, `abbr_dict_example.csv`).
 
-## Notebooks
+## 📒 Notebooks
 
 Run Jupyter from the repository root (`jupyter notebook`). Each notebook defines `PROJECT_ROOT`, `DATA_DIR`, `ANNOTATION_DIR` and `OUTPUT_DIR` in its first path cell. Results are written to `outputs/<step>/`, so the input files are never overwritten.
 
-### `1. Preprocessing_Single_abs_question_generation_2026.ipynb`
+### 🔨 `1. Preprocessing_Single_abs_question_generation_2026.ipynb`
 
 Generates search-style questions ("Can you find structures of …") from individual PubMed abstracts.
 
@@ -107,12 +113,12 @@ Generates search-style questions ("Can you find structures of …") from individ
 
 Settings: `model_type` (`qwen` / `llama` / `gemini`) in cell 2, and `selected`.
 
-### `2. abbreviation_dataset_dictionary.ipynb`
+### 📚 `2. abbreviation_dataset_dictionary.ipynb`
 
 - **Question variants:** detects `full name (ABBR)` and `ABBR (full name)` patterns in each question and adds `with_abbreviation` / `without_abbreviation` columns. Output: `outputs/abbreviation/<name>_with_abbr_variants.csv`.
 - **Abbreviation dictionary:** extracts abbreviation–definition pairs from every abstract in `demo_pubmed.json`, using regex and Qwen2.5-7B-Instruct. Output: `outputs/abbreviation/abbr_dict_all_abs.csv`.
 
-### `3. Evaluation_single_abs_question.ipynb`
+### 🎯 `3. Evaluation_single_abs_question.ipynb`
 
 Evaluates retrieval on the single-abstract questions. The ground truth for each question is its source PMID.
 
@@ -140,7 +146,7 @@ Flags in the first cell:
 
 Note: the Chroma index in `chroma_db_eval/` is deleted and rebuilt on every run.
 
-## Configuration
+## 🛠️ Configuration
 
 `utils/rag_app/config_seperate_pdb_id.py` reads the following environment variables. Notebook 3 sets them in its path cell.
 
@@ -155,6 +161,37 @@ Note: the Chroma index in `chroma_db_eval/` is deleted and rebuilt on every run.
 | `RAD_RAG_LLM_MODEL` | (default) `Qwen/Qwen2.5-7B-Instruct` | LLM for rewrite / reason / judge chains |
 | `RAD_RAG_PDB_AGGREGATION` | `max` | how per-PDB rerank scores are collapsed per PMID (`max` / `mean`) |
 
-## Citation
+## 📝 Citation
 
-Citation information will be added when the paper is published.
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{ding-etal-2026-rad,
+    title = "{RAD}-{PROTEIN}: Multi-source Knowledge-enriched Retrieval-augmented Protein Structure Searching",
+    author = "Ding, Kexin  and
+      Biester, Alison  and
+      Vallat, Brinda  and
+      Shao, Chenghua  and
+      Piehl, Dennis W  and
+      Won, Dongwook  and
+      Segura, Joan  and
+      Duarte, Jose M.  and
+      Zhou, Mu  and
+      Feng, Zukang  and
+      Rose, Yana  and
+      Burley, Stephen K.  and
+      Metaxas, Dimitris N.",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.1940/",
+    pages = "44147--44164",
+    ISBN = "979-8-89176-459-0",
+}
+```
